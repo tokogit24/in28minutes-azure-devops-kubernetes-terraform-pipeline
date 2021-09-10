@@ -25,7 +25,6 @@ steps:
     backendAzureRmStorageAccountName: 'storageacctrodyttr'
     backendAzureRmContainerName: 'storageacctrodycontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
-    allowTelemetryCollection: true
 
 - task: TerraformCLI@0
   inputs:
