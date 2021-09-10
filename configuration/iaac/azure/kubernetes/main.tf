@@ -3,7 +3,6 @@ provider "azurerm" {
 }
 resource "azurerm_resource_group" "resource_group" {
   name     = "${var.resource_group}_${var.environment}"
-  dns_prefix          = var.dns_prefix
   location = var.location
 }
 
